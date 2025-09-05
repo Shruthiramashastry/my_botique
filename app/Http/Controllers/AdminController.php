@@ -21,8 +21,7 @@ class AdminController extends Controller
         $email = $request->post('email');
         $password = $request->post('password');
         $result = admin::where(['email'=>$email,'password'=>$password])->get();
-        // echo"<Pre>";
-        //     print_r($result);die;
+
         if(count($result)>0)
         {
             //echo "login sucess";
