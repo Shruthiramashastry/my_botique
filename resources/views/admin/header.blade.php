@@ -115,7 +115,7 @@
             <nav class="navbar-sidebar">
                 <ul class="list-unstyled navbar__list">
                     <li class="active">
-                        <a href="dashborad">
+                        <a href="dashboard">
                             <i class="fas fa-tachometer-alt"></i>Dashboard</a>
 
                     </li>
