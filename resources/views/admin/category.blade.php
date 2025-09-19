@@ -14,19 +14,22 @@
             <div class="main-content">
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
-                        <h3>Categories</h3>
+                        <h3 class="mb10">Categories</h3>
 
                         <div class="row">
                             <div class="col-md-12">
 
-                                <div class="table-data__tool">
+                                <form action="add_category">
+                                    <div class="table-data__tool">
 
-                                    <div class="table-data__tool-right">
-                                        <button class="au-btn au-btn-icon au-btn--green au-btn--small">
-                                            <i class="zmdi zmdi-plus"></i>add item</button>
+                                        <div class="table-data__tool-right">
+                                            <button class="au-btn au-btn-icon au-btn--green au-btn--small">
+                                                <i class="zmdi zmdi-plus"></i>add item</button>
 
+                                        </div>
                                     </div>
-                                </div>
+                                </form>
+
                                 <div class="table-responsive table-responsive-data2">
                                     <table class="table table-data2">
                                         <thead>
